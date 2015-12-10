@@ -26,13 +26,13 @@ You could change just one method to use Log4NET or some other logger
 ### Usage
 #### Statically
 ```csharp
-      public static class YourHelper
+      public static class SettingsHelper
       {
           private static readonly ILogger Logger = new Logger(typeof(SettingsHelper));
   
-          public static string GetAString<string>(string whatString)
+          public static T Get<T>(string key)
           {
-              Logger.Trace(string.Format("Retrieving a string called {0}", whatString));
+              Logger.Trace(string.Format("Retrieving a key called {0}", key));
 ```
 #### Object Instance
 ```csharp

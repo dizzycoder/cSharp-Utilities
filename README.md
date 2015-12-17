@@ -1,3 +1,5 @@
+**NOTE** i had to fix something in the NLog package for the wrapper situation to work; when i get a chance I'll double check they've not fixed it and/or pull request the fix
+
 # C# Core Utilities
 The core utilities you always tote around from one project to another
 Simple, easy to use, explicit libraries that are adaptable, fexible, and sassy
